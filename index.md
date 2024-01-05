@@ -1,8 +1,8 @@
 ---
 layout: homepage.liquid
-title: Horsin' Around
+title: On my way | José's blog
 ---
 
-# Welcome to Hollywoo
+# On my way
 
-Hello. I am BoJack. Horseman, obviously
+When I want to write this is where I'll go. If you wanna know more about me, check out my [personal site](https://josedelgado.me).
