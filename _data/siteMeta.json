@@ -1,11 +1,10 @@
 {
-    "url": "https://eleventy-blog-mnml.netlify.app",
-    "description": "A minimal blog template using eleventy",
+    "url": "https://onmyway.josedelgado.me",
+    "description": "José's blog",
     "author": {
-      "name": "Arpit Batra",
-      "email": "arpitbatra123@gmail.com",
-      "twitter": "https://twitter.com/arpitbatra123",
-      "github": "https://github.com/arpitbatra123"
+      "name": "José Delgado",
+      "email": "josedelgadosanabria@gmail.com",
+      "mastodon": "https://mastodon.design/@jd"
     },
     "feedUrl": "/feed.xml"
   }
