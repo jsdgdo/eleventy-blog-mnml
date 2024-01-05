@@ -1,25 +1,68 @@
-/* ibm-plex-sans-regular - latin */
+/*custom fonts*/
 @font-face {
-  font-family: "IBM Plex Sans";
+  font-family: 'aileronbold';
+  src: url('../fonts/aileron-bold-webfont.woff2') format('woff2'),
+       url('../fonts/aileron-bold-webfont.woff') format('woff');
+  font-weight: 800;
   font-style: normal;
-  font-weight: 400;
-  src: local(""), url("../assets/fonts/ibm-plex-sans-v8-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/ibm-plex-sans-v8-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* ibm-plex-sans-700 - latin */
 @font-face {
-  font-family: "IBM Plex Sans";
+  font-family: 'aileronbold_italic';
+  src: url('../fonts/aileron-bolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/aileron-bolditalic-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'aileronregular';
+  src: url('../fonts/aileron-regular-webfont.woff2') format('woff2'),
+       url('../fonts/aileron-regular-webfont.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
-  font-weight: 700;
-  src: local(""), url("../assets/fonts/ibm-plex-sans-v8-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/ibm-plex-sans-v8-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'aileronitalic';
+  src: url('../fonts/aileron-italic-webfont.woff2') format('woff2'),
+       url('../fonts/aileron-italic-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'aileronlight';
+  src: url('../fonts/aileron-light-webfont.woff2') format('woff2'),
+       url('../fonts/aileron-light-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'aileronlight_italic';
+  src: url('../fonts/aileron-lightitalic-webfont.woff2') format('woff2'),
+       url('../fonts/aileron-lightitalic-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'stentigaregular';
+  src: url('../fonts/stentiga-webfont.woff2') format('woff2'),
+       url('../fonts/stentiga-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
 :root { 
+  /*colors*/
   --night-body: #CBCFD7;
   --night-link: #28CDE4;
   --night-heading: #4AB4ED;
   --night-bg: #222539;
+
+  /*fonts*/
+  --regular:'aileronregular', Arial, Helvetica, sans-serif;
+  --italic: 'aileronitalic', Arial, Helvetica, sans-serif;
+  --bold: 'aileronbold', Arial, Helvetica, sans-serif;
+  --bold-italic: 'aileronbold_italic', Arial, Helvetica, sans-serif;
+  --light: 'aileronlight', Arial, Helvetica, sans-serif;
+  --light-italic: 'aileronlight_italic', Arial, Helvetica, sans-serif;
 }
 ::selection {
   color: var(--night-bg);
@@ -37,7 +80,7 @@
 }
 
 body {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: var(--regular);
   color: var(--night-body);
   background: var(--night-bg);
 }
