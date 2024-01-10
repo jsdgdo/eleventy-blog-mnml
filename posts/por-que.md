@@ -1,6 +1,8 @@
 ---
 date: Last Modified
 title: ¿Por qué?
+lang: es
+description: Las 3 razones por las que empecé este blog.
 ---
 Muchos de los lectores que espero puedo tener en este lugar, vienen de la cuenta de Substack donde expliqué el proceso de diseño para la actualización de mi [sitio personal](https://josedelgado.me). Y se preguntarán por qué estoy moviendo mi escritura a este blog.
 

@@ -1,6 +1,8 @@
 ---
 date: Last Modified
 title: Hello world
+lang: en
+description: For a while now I've been wanting to host my own blog. This is it.
 ---
 
 For a while now I've been wanting to host my own blog. This is it.

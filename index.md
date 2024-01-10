@@ -1,6 +1,7 @@
 ---
 layout: homepage.liquid
 title: On my way | José's blog
+lang: en
 description: A collection of thoughts. Could be about photography, design, family life, or the indie web. Taking ownership of my words.
 ---
 
