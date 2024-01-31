@@ -28,4 +28,6 @@ Film photography is what most attracted to get into taking photos, even before g
 
 The best place I found to get film recipes is [Fuji X Weekly](https://fujixweekly.com/recipes/). For now I’ll be focusing on the [Fujicolor Pro 400H](https://fujixweekly.com/2021/05/16/fujifilm-x100v-x-trans-iv-film-simulation-recipe-fujicolor-pro-400h/) recipe, for that vibrant pastel-y look. I’ll keep the raw files just in case, because I guess I can’t have *that* much fun with it. And here’s the picture I took to kick it all off: 
 
+![Taken from my bed, a photo of my girlfriend's cupboard with her bathrobe hanged on the side, a stream of sunlight comes in such a way that makes a frame of light in the middle of the image](/assets/images/posts/photo-journey/weird.jpg "Moody cupboard")
+
 I’ll shoot with this film recipe all of the coming month, and I’ll get back to you with results! I’ll post the ones I like most on [Mastodon](https://mastodon.design/@jd), so give me a follow for real time updates!
